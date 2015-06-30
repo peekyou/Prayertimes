@@ -1,0 +1,4 @@
+PrayerViewModel : 
+- GetMethod
+- GetMethodByCountry
+- MethodsList

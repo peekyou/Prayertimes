@@ -1,0 +1,24 @@
+C:\Users\Jérémie\Documents\Visual Studio 2012\Projects\PrayerTimes\PrayerTimes.Models\bin\Debug\PrayerTimes.Models.dll
+C:\Users\Jérémie\Documents\Visual Studio 2012\Projects\PrayerTimes\PrayerTimes.Models\bin\Debug\PrayerTimes.Models.pdb
+C:\Users\Jérémie\Documents\Visual Studio 2012\Projects\PrayerTimes\PrayerTimes.Models\bin\Debug\PrayerTimes.Models.pri
+C:\Users\Jérémie\Documents\Visual Studio 2012\Projects\PrayerTimes\PrayerTimes.Models\obj\Debug\PrayerTimes.Models.dll
+C:\Users\Jérémie\Documents\Visual Studio 2012\Projects\PrayerTimes\PrayerTimes.Models\obj\Debug\PrayerTimes.Models.pdb
+C:\Users\Jérémie\Documents\Visual Studio 2012\Projects\PrayerTimes\PrayerTimes.Models\obj\Debug\priconfig.xml.intermediate
+C:\Users\Jérémie\Documents\Visual Studio 2012\Projects\PrayerTimes\PrayerTimes.Models\obj\Debug\layout.resfiles.intermediate
+C:\Users\Jérémie\Documents\Visual Studio 2012\Projects\PrayerTimes\PrayerTimes.Models\obj\Debug\resources.resfiles.intermediate
+C:\Users\Jérémie\Documents\Visual Studio 2012\Projects\PrayerTimes\PrayerTimes.Models\obj\Debug\pri.resfiles.intermediate
+C:\Users\Jérémie\Documents\Visual Studio 2012\Projects\PrayerTimes\PrayerTimes.Models\obj\Debug\priconfig.xml
+C:\Users\Jérémie\Documents\Visual Studio 2012\Projects\PrayerTimes\PrayerTimes.Models\obj\Debug\layout.resfiles
+C:\Users\Jérémie\Documents\Visual Studio 2012\Projects\PrayerTimes\PrayerTimes.Models\obj\Debug\resources.resfiles
+C:\Users\Jérémie\Documents\Visual Studio 2012\Projects\PrayerTimes\PrayerTimes.Models\obj\Debug\pri.resfiles
+C:\Users\Jérémie\Documents\Visual Studio 2012\Projects\PrayerTimes\PrayerTimes.Models\obj\Debug\LanguageQualifiers.txt
+S:\Dev\Windows 8\PrayerTimes\PrayerTimes.Models\bin\Debug\PrayerTimes.Models.dll
+S:\Dev\Windows 8\PrayerTimes\PrayerTimes.Models\bin\Debug\PrayerTimes.Models.pdb
+S:\Dev\Windows 8\PrayerTimes\PrayerTimes.Models\bin\Debug\PrayerTimes.Models.pri
+S:\Dev\Windows 8\PrayerTimes\PrayerTimes.Models\obj\Debug\PrayerTimes.Models.dll
+S:\Dev\Windows 8\PrayerTimes\PrayerTimes.Models\obj\Debug\PrayerTimes.Models.pdb
+S:\Dev\Windows 8\PrayerTimes\PrayerTimes.Models\obj\Debug\priconfig.xml
+S:\Dev\Windows 8\PrayerTimes\PrayerTimes.Models\obj\Debug\layout.resfiles
+S:\Dev\Windows 8\PrayerTimes\PrayerTimes.Models\obj\Debug\resources.resfiles
+S:\Dev\Windows 8\PrayerTimes\PrayerTimes.Models\obj\Debug\pri.resfiles
+S:\Dev\Windows 8\PrayerTimes\PrayerTimes.Models\obj\Debug\LanguageQualifiers.txt

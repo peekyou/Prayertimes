@@ -1,0 +1,3 @@
+S:\Dev\Windows 8\PrayerTimes\PrayerCalculation\PrayerCalculation.csproj;neutral
+S:\Dev\Windows 8\PrayerTimes\PrayerTimes.Models\PrayerTimes.Models.csproj;neutral
+S:\Dev\Windows 8\PrayerTimes\PrayerTimes\PrayerTimes.csproj;neutral

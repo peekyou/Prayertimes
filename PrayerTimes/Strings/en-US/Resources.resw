@@ -1,0 +1,222 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<root>
+  <!-- 
+    Microsoft ResX Schema 
+    
+    Version 2.0
+    
+    The primary goals of this format is to allow a simple XML format 
+    that is mostly human readable. The generation and parsing of the 
+    various data types are done through the TypeConverter classes 
+    associated with the data types.
+    
+    Example:
+    
+    ... ado.net/XML headers & schema ...
+    <resheader name="resmimetype">text/microsoft-resx</resheader>
+    <resheader name="version">2.0</resheader>
+    <resheader name="reader">System.Resources.ResXResourceReader, System.Windows.Forms, ...</resheader>
+    <resheader name="writer">System.Resources.ResXResourceWriter, System.Windows.Forms, ...</resheader>
+    <data name="Name1"><value>this is my long string</value><comment>this is a comment</comment></data>
+    <data name="Color1" type="System.Drawing.Color, System.Drawing">Blue</data>
+    <data name="Bitmap1" mimetype="application/x-microsoft.net.object.binary.base64">
+        <value>[base64 mime encoded serialized .NET Framework object]</value>
+    </data>
+    <data name="Icon1" type="System.Drawing.Icon, System.Drawing" mimetype="application/x-microsoft.net.object.bytearray.base64">
+        <value>[base64 mime encoded string representing a byte array form of the .NET Framework object]</value>
+        <comment>This is a comment</comment>
+    </data>
+                
+    There are any number of "resheader" rows that contain simple 
+    name/value pairs.
+    
+    Each data row contains a name, and value. The row also contains a 
+    type or mimetype. Type corresponds to a .NET class that support 
+    text/value conversion through the TypeConverter architecture. 
+    Classes that don't support this are serialized and stored with the 
+    mimetype set.
+    
+    The mimetype is used for serialized objects, and tells the 
+    ResXResourceReader how to depersist the object. This is currently not 
+    extensible. For a given mimetype the value must be set accordingly:
+    
+    Note - application/x-microsoft.net.object.binary.base64 is the format 
+    that the ResXResourceWriter will generate, however the reader can 
+    read any of the formats listed below.
+    
+    mimetype: application/x-microsoft.net.object.binary.base64
+    value   : The object must be serialized with 
+            : System.Runtime.Serialization.Formatters.Binary.BinaryFormatter
+            : and then encoded with base64 encoding.
+    
+    mimetype: application/x-microsoft.net.object.soap.base64
+    value   : The object must be serialized with 
+            : System.Runtime.Serialization.Formatters.Soap.SoapFormatter
+            : and then encoded with base64 encoding.
+
+    mimetype: application/x-microsoft.net.object.bytearray.base64
+    value   : The object must be serialized into a byte array 
+            : using a System.ComponentModel.TypeConverter
+            : and then encoded with base64 encoding.
+    -->
+  <xsd:schema id="root" xmlns="" xmlns:xsd="http://www.w3.org/2001/XMLSchema" xmlns:msdata="urn:schemas-microsoft-com:xml-msdata">
+    <xsd:import namespace="http://www.w3.org/XML/1998/namespace" />
+    <xsd:element name="root" msdata:IsDataSet="true">
+      <xsd:complexType>
+        <xsd:choice maxOccurs="unbounded">
+          <xsd:element name="metadata">
+            <xsd:complexType>
+              <xsd:sequence>
+                <xsd:element name="value" type="xsd:string" minOccurs="0" />
+              </xsd:sequence>
+              <xsd:attribute name="name" use="required" type="xsd:string" />
+              <xsd:attribute name="type" type="xsd:string" />
+              <xsd:attribute name="mimetype" type="xsd:string" />
+              <xsd:attribute ref="xml:space" />
+            </xsd:complexType>
+          </xsd:element>
+          <xsd:element name="assembly">
+            <xsd:complexType>
+              <xsd:attribute name="alias" type="xsd:string" />
+              <xsd:attribute name="name" type="xsd:string" />
+            </xsd:complexType>
+          </xsd:element>
+          <xsd:element name="data">
+            <xsd:complexType>
+              <xsd:sequence>
+                <xsd:element name="value" type="xsd:string" minOccurs="0" msdata:Ordinal="1" />
+                <xsd:element name="comment" type="xsd:string" minOccurs="0" msdata:Ordinal="2" />
+              </xsd:sequence>
+              <xsd:attribute name="name" type="xsd:string" use="required" msdata:Ordinal="1" />
+              <xsd:attribute name="type" type="xsd:string" msdata:Ordinal="3" />
+              <xsd:attribute name="mimetype" type="xsd:string" msdata:Ordinal="4" />
+              <xsd:attribute ref="xml:space" />
+            </xsd:complexType>
+          </xsd:element>
+          <xsd:element name="resheader">
+            <xsd:complexType>
+              <xsd:sequence>
+                <xsd:element name="value" type="xsd:string" minOccurs="0" msdata:Ordinal="1" />
+              </xsd:sequence>
+              <xsd:attribute name="name" type="xsd:string" use="required" />
+            </xsd:complexType>
+          </xsd:element>
+        </xsd:choice>
+      </xsd:complexType>
+    </xsd:element>
+  </xsd:schema>
+  <resheader name="resmimetype">
+    <value>text/microsoft-resx</value>
+  </resheader>
+  <resheader name="version">
+    <value>2.0</value>
+  </resheader>
+  <resheader name="reader">
+    <value>System.Resources.ResXResourceReader, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </resheader>
+  <resheader name="writer">
+    <value>System.Resources.ResXResourceWriter, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </resheader>
+  <data name="AddToFavoritesAppBarButtonStyle.Value" xml:space="preserve">
+    <value>Add to favorites</value>
+  </data>
+  <data name="AsrMethodSettingsString" xml:space="preserve">
+    <value>Asr method</value>
+  </data>
+  <data name="AutomaticString" xml:space="preserve">
+    <value>Automatic</value>
+  </data>
+  <data name="CalculationMethodSettingsString" xml:space="preserve">
+    <value>Calculation method used</value>
+  </data>
+  <data name="CurrentMethod" xml:space="preserve">
+    <value>Method used :</value>
+  </data>
+  <data name="DisplayModesCurrentMonth" xml:space="preserve">
+    <value>Current month</value>
+  </data>
+  <data name="DisplayModesNextSevenDays" xml:space="preserve">
+    <value>Next 7 days</value>
+  </data>
+  <data name="DisplayModesToday" xml:space="preserve">
+    <value>Today</value>
+  </data>
+  <data name="ErrorMessagesGeolocationError" xml:space="preserve">
+    <value>Could not find your position. Try to search a city.</value>
+  </data>
+  <data name="ErrorMessagesInternetConnectionError" xml:space="preserve">
+    <value>The connection or the service is not available. Please check your connection or try again later.</value>
+  </data>
+  <data name="ErrorMessagesLocationNotFoundError" xml:space="preserve">
+    <value>Location could not be found</value>
+  </data>
+  <data name="FavoritesAppBarButtonStyle.Value" xml:space="preserve">
+    <value>Favorites</value>
+  </data>
+  <data name="FavoritesTitle" xml:space="preserve">
+    <value>Favorites</value>
+  </data>
+  <data name="MaghribAdjustementSettingsString" xml:space="preserve">
+    <value>Maghrib adjustement (minutes)</value>
+  </data>
+  <data name="MidnightMethodSettingsString" xml:space="preserve">
+    <value>Midnight method</value>
+  </data>
+  <data name="MoreOptionsLink.Content" xml:space="preserve">
+    <value>More options</value>
+  </data>
+  <data name="PersonalDataText" xml:space="preserve">
+    <value>Personal information will be requested only in cases where such information is necessary to identify you or contact you. Typically this is done in cases where it is necessary to register in order to make use of a service, such as leaving comments or join a discussion. In such cases World Prayer Times services also gather information about the hardware and software used, such as IP address, browser type, operating system, domain name and Web site addresses from which a user has logged in. This information is used to improve the quality of service and to provide general statistics about World Prayer Times.
+
+If you decide to give your consent, your data may be used for purposes of promotion of World Prayer Times activities. World Prayer Times may disclose personal information only if required by law or in case there is the firm belief that such action is necessary to: 
+
+(1) comply with laws and local regulations; 
+
+(2) protect and defend the rights or property of World Prayer Times.</value>
+  </data>
+  <data name="PersonalDataTitle" xml:space="preserve">
+    <value>Collection and use of personal data</value>
+  </data>
+  <data name="PersonalInformationText" xml:space="preserve">
+    <value>The personal information you provide to World Prayer Times for registration or for any other purpose is not shared with third parties without explicit permission from you, except for the limited instances described above. Personal information will always be used for the purposes described above. Registration, if required, also allows the user to specify if you wish to be contacted by World Prayer Times and how such contact should occur. World Prayer Times provides users with all the tools they need to make sure that personal information is correct and up-to-date. If you register for the services offered by World Prayer Times, you can edit and update the information provided at any time.</value>
+  </data>
+  <data name="PersonalInformationTitle" xml:space="preserve">
+    <value>Control and access to personal information</value>
+  </data>
+  <data name="PolicyChangesText" xml:space="preserve">
+    <value>World Prayer Times reserves the right to modify this document. If we use your personal information differently than specified in the legal information provided at the time of collection of the data, users will be notified through announcements posted on World Prayer Times.</value>
+  </data>
+  <data name="PolicyChangesTitle" xml:space="preserve">
+    <value>Changes to this privacy policy</value>
+  </data>
+  <data name="Preferences" xml:space="preserve">
+    <value>Preferences</value>
+  </data>
+  <data name="PreferencesLink.Content" xml:space="preserve">
+    <value>Preferences</value>
+  </data>
+  <data name="PrivacyPolicy.Text" xml:space="preserve">
+    <value>Privacy Policy</value>
+  </data>
+  <data name="PrivacyPolicyText" xml:space="preserve">
+    <value>The World Prayer Times project is committed to protecting your privacy. Most of our services can be enjoyed without having to communicate to World Prayer Times any personal data, but in some cases it may be required to provide certain information in order to access the services. This privacy policy describes the collection and processing of data in such cases. This privacy statement applies only to the services made available by the World Prayer Times application.</value>
+  </data>
+  <data name="PrivacyPolicyTitle" xml:space="preserve">
+    <value>Privacy policy</value>
+  </data>
+  <data name="PrivacyStatementString" xml:space="preserve">
+    <value>Privacy Policy</value>
+  </data>
+  <data name="RemoveFromFavoritesAppBarButtonStyle.Value" xml:space="preserve">
+    <value>Remove from favorites</value>
+  </data>
+  <data name="SearchPanePlaceholderText" xml:space="preserve">
+    <value>Search for a city</value>
+  </data>
+  <data name="SettingsPreferences.Text" xml:space="preserve">
+    <value>Preferences</value>
+  </data>
+  <data name="StartGeolocationAppBarButtonStyle.Value" xml:space="preserve">
+    <value>Start Geolocation</value>
+  </data>
+</root>

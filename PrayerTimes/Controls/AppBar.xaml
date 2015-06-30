@@ -1,0 +1,53 @@
+﻿<UserControl
+    x:Class="PrayerTimes.AppBar"
+    xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+    xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+    xmlns:local="using:PrayerTimes.Controls"
+    xmlns:d="http://schemas.microsoft.com/expression/blend/2008"
+    xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
+    mc:Ignorable="d"
+    xmlns:common="using:PrayerTimes.Common"
+    d:DesignHeight="300"
+    d:DesignWidth="400">
+
+    <UserControl.Resources>
+        <common:BooleanToVisibilityConverter x:Key="BooleanToVisibilityConverter"/>
+        
+        <Style x:Key="FavoritesAppBarButtonStyle" TargetType="Button" BasedOn="{StaticResource AppBarButtonStyle}">
+            <Setter Property="AutomationProperties.AutomationId" Value="FavoritesAppBarButtonStyle"/>
+            <Setter Property="AutomationProperties.Name" x:Uid="FavoritesAppBarButtonStyle" Value=""/>
+            <Setter Property="Content" Value="&#xE113;"/>
+        </Style>
+        <Style x:Key="AddToFavoritesAppBarButtonStyle" TargetType="Button" BasedOn="{StaticResource AppBarButtonStyle}">
+            <Setter Property="AutomationProperties.AutomationId" Value="AddToFavoritesAppBarButtonStyle"/>
+            <Setter Property="AutomationProperties.Name" x:Uid="AddToFavoritesAppBarButtonStyle" Value=""/>
+            <Setter Property="Content" Value="&#xE109;"/>
+        </Style>
+        <Style x:Key="RemoveFromFavoritesAppBarButtonStyle" TargetType="Button" BasedOn="{StaticResource AppBarButtonStyle}">
+            <Setter Property="AutomationProperties.AutomationId" Value="RemoveFromFavoritesAppBarButtonStyle"/>
+            <Setter Property="AutomationProperties.Name" x:Uid="RemoveFromFavoritesAppBarButtonStyle" Value=""/>
+            <Setter Property="Content" Value="&#xE107;"/>
+        </Style>
+        <Style x:Key="StartGeolocationAppBarButtonStyle" TargetType="Button" BasedOn="{StaticResource AppBarButtonStyle}">
+            <Setter Property="AutomationProperties.AutomationId" Value="StartGeolocationAppBarButtonStyle"/>
+            <Setter Property="AutomationProperties.Name" x:Uid="StartGeolocationAppBarButtonStyle" Value=""/>
+            <Setter Property="Content" Value="&#xE128;"/>
+        </Style>
+    </UserControl.Resources>
+    
+    <Grid>
+        <StackPanel Orientation="Horizontal">
+            <Button Style="{StaticResource StartGeolocationAppBarButtonStyle}"
+                            Click="ButtonGeolocation_Click"/>
+            <Button Style="{StaticResource FavoritesAppBarButtonStyle}"
+                            Click="ButtonFavorites_Click"/>
+            <Button Style="{StaticResource AddToFavoritesAppBarButtonStyle}"
+                            Click="ButtonAddToFavorites_Click"/>
+            <Button Style="{StaticResource RemoveFromFavoritesAppBarButtonStyle}"
+                            Click="ButtonRemoveFromFavorites_Click"/>
+            <TextBlock FontFamily="Segoe UI Symbol" Text="&#xE10B;" FontSize="30" Margin="0,12,0,0"
+                       Foreground="Green" Visibility="{Binding Success, Converter={StaticResource BooleanToVisibilityConverter}}" 
+                       x:Name="SuccessTextBlock"/>
+        </StackPanel>
+    </Grid>
+</UserControl>

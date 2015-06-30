@@ -1,0 +1,24 @@
+C:\Users\Jérémie\Documents\Visual Studio 2012\Projects\PrayerTimes\PrayerTimes.Models\bin\Release\PrayerTimes.Models.dll
+C:\Users\Jérémie\Documents\Visual Studio 2012\Projects\PrayerTimes\PrayerTimes.Models\bin\Release\PrayerTimes.Models.pdb
+C:\Users\Jérémie\Documents\Visual Studio 2012\Projects\PrayerTimes\PrayerTimes.Models\bin\Release\PrayerTimes.Models.pri
+C:\Users\Jérémie\Documents\Visual Studio 2012\Projects\PrayerTimes\PrayerTimes.Models\obj\Release\PrayerTimes.Models.dll
+C:\Users\Jérémie\Documents\Visual Studio 2012\Projects\PrayerTimes\PrayerTimes.Models\obj\Release\PrayerTimes.Models.pdb
+C:\Users\Jérémie\Documents\Visual Studio 2012\Projects\PrayerTimes\PrayerTimes.Models\obj\Release\priconfig.xml.intermediate
+C:\Users\Jérémie\Documents\Visual Studio 2012\Projects\PrayerTimes\PrayerTimes.Models\obj\Release\layout.resfiles.intermediate
+C:\Users\Jérémie\Documents\Visual Studio 2012\Projects\PrayerTimes\PrayerTimes.Models\obj\Release\resources.resfiles.intermediate
+C:\Users\Jérémie\Documents\Visual Studio 2012\Projects\PrayerTimes\PrayerTimes.Models\obj\Release\pri.resfiles.intermediate
+C:\Users\Jérémie\Documents\Visual Studio 2012\Projects\PrayerTimes\PrayerTimes.Models\obj\Release\priconfig.xml
+C:\Users\Jérémie\Documents\Visual Studio 2012\Projects\PrayerTimes\PrayerTimes.Models\obj\Release\layout.resfiles
+C:\Users\Jérémie\Documents\Visual Studio 2012\Projects\PrayerTimes\PrayerTimes.Models\obj\Release\resources.resfiles
+C:\Users\Jérémie\Documents\Visual Studio 2012\Projects\PrayerTimes\PrayerTimes.Models\obj\Release\pri.resfiles
+C:\Users\Jérémie\Documents\Visual Studio 2012\Projects\PrayerTimes\PrayerTimes.Models\obj\Release\LanguageQualifiers.txt
+S:\Dev\Windows 8\PrayerTimes\PrayerTimes.Models\bin\Release\PrayerTimes.Models.dll
+S:\Dev\Windows 8\PrayerTimes\PrayerTimes.Models\bin\Release\PrayerTimes.Models.pdb
+S:\Dev\Windows 8\PrayerTimes\PrayerTimes.Models\bin\Release\PrayerTimes.Models.pri
+S:\Dev\Windows 8\PrayerTimes\PrayerTimes.Models\obj\Release\PrayerTimes.Models.dll
+S:\Dev\Windows 8\PrayerTimes\PrayerTimes.Models\obj\Release\PrayerTimes.Models.pdb
+S:\Dev\Windows 8\PrayerTimes\PrayerTimes.Models\obj\Release\priconfig.xml
+S:\Dev\Windows 8\PrayerTimes\PrayerTimes.Models\obj\Release\layout.resfiles
+S:\Dev\Windows 8\PrayerTimes\PrayerTimes.Models\obj\Release\resources.resfiles
+S:\Dev\Windows 8\PrayerTimes\PrayerTimes.Models\obj\Release\pri.resfiles
+S:\Dev\Windows 8\PrayerTimes\PrayerTimes.Models\obj\Release\LanguageQualifiers.txt

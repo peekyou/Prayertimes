@@ -1,0 +1,112 @@
+C:\Users\Jérémie\Documents\Visual Studio 2012\Projects\PrayerTimes\PrayerTimes\bin\Debug\PrayerTimes.exe
+C:\Users\Jérémie\Documents\Visual Studio 2012\Projects\PrayerTimes\PrayerTimes\bin\Debug\PrayerTimes.pdb
+C:\Users\Jérémie\Documents\Visual Studio 2012\Projects\PrayerTimes\PrayerTimes\bin\Debug\resources.pri
+C:\Users\Jérémie\Documents\Visual Studio 2012\Projects\PrayerTimes\PrayerTimes\bin\Debug\AppxManifest.xml
+C:\Users\Jérémie\Documents\Visual Studio 2012\Projects\PrayerTimes\PrayerTimes\bin\Debug\PrayerTimes.build.appxrecipe
+C:\Users\Jérémie\Documents\Visual Studio 2012\Projects\PrayerTimes\PrayerTimes\bin\Debug\PrayerCalculation.dll
+C:\Users\Jérémie\Documents\Visual Studio 2012\Projects\PrayerTimes\PrayerTimes\bin\Debug\PrayerTimes.Models.dll
+C:\Users\Jérémie\Documents\Visual Studio 2012\Projects\PrayerTimes\PrayerTimes\bin\Debug\PrayerCalculation.pdb
+C:\Users\Jérémie\Documents\Visual Studio 2012\Projects\PrayerTimes\PrayerTimes\bin\Debug\PrayerCalculation.pri
+C:\Users\Jérémie\Documents\Visual Studio 2012\Projects\PrayerTimes\PrayerTimes\bin\Debug\PrayerTimes.Models.pdb
+C:\Users\Jérémie\Documents\Visual Studio 2012\Projects\PrayerTimes\PrayerTimes\bin\Debug\PrayerTimes.Models.pri
+C:\Users\Jérémie\Documents\Visual Studio 2012\Projects\PrayerTimes\PrayerTimes\obj\Debug\PrayerTimes.csprojResolveAssemblyReference.cache
+C:\Users\Jérémie\Documents\Visual Studio 2012\Projects\PrayerTimes\PrayerTimes\obj\Debug\App.g.i.cs
+C:\Users\Jérémie\Documents\Visual Studio 2012\Projects\PrayerTimes\PrayerTimes\obj\Debug\App.g.cs
+C:\Users\Jérémie\Documents\Visual Studio 2012\Projects\PrayerTimes\PrayerTimes\obj\Debug\Common\StandardStyles.g.i.cs
+C:\Users\Jérémie\Documents\Visual Studio 2012\Projects\PrayerTimes\PrayerTimes\obj\Debug\Common\StandardStyles.g.cs
+C:\Users\Jérémie\Documents\Visual Studio 2012\Projects\PrayerTimes\PrayerTimes\obj\Debug\Controls\AppBar.g.i.cs
+C:\Users\Jérémie\Documents\Visual Studio 2012\Projects\PrayerTimes\PrayerTimes\obj\Debug\Controls\AppBar.g.cs
+C:\Users\Jérémie\Documents\Visual Studio 2012\Projects\PrayerTimes\PrayerTimes\obj\Debug\Controls\PageBackground.g.i.cs
+C:\Users\Jérémie\Documents\Visual Studio 2012\Projects\PrayerTimes\PrayerTimes\obj\Debug\Controls\PageBackground.g.cs
+C:\Users\Jérémie\Documents\Visual Studio 2012\Projects\PrayerTimes\PrayerTimes\obj\Debug\View\CalendarPage.g.i.cs
+C:\Users\Jérémie\Documents\Visual Studio 2012\Projects\PrayerTimes\PrayerTimes\obj\Debug\View\CalendarPage.g.cs
+C:\Users\Jérémie\Documents\Visual Studio 2012\Projects\PrayerTimes\PrayerTimes\obj\Debug\View\ExtendedSplashScreen.g.i.cs
+C:\Users\Jérémie\Documents\Visual Studio 2012\Projects\PrayerTimes\PrayerTimes\obj\Debug\View\ExtendedSplashScreen.g.cs
+C:\Users\Jérémie\Documents\Visual Studio 2012\Projects\PrayerTimes\PrayerTimes\obj\Debug\View\FavoritesPage.g.i.cs
+C:\Users\Jérémie\Documents\Visual Studio 2012\Projects\PrayerTimes\PrayerTimes\obj\Debug\View\FavoritesPage.g.cs
+C:\Users\Jérémie\Documents\Visual Studio 2012\Projects\PrayerTimes\PrayerTimes\obj\Debug\View\PreferencesSettings.g.i.cs
+C:\Users\Jérémie\Documents\Visual Studio 2012\Projects\PrayerTimes\PrayerTimes\obj\Debug\View\PreferencesSettings.g.cs
+C:\Users\Jérémie\Documents\Visual Studio 2012\Projects\PrayerTimes\PrayerTimes\obj\Debug\View\SearchResultsPage.g.i.cs
+C:\Users\Jérémie\Documents\Visual Studio 2012\Projects\PrayerTimes\PrayerTimes\obj\Debug\View\SearchResultsPage.g.cs
+C:\Users\Jérémie\Documents\Visual Studio 2012\Projects\PrayerTimes\PrayerTimes\obj\Debug\XamlTypeInfo.g.cs
+C:\Users\Jérémie\Documents\Visual Studio 2012\Projects\PrayerTimes\PrayerTimes\obj\Debug\App.xaml
+C:\Users\Jérémie\Documents\Visual Studio 2012\Projects\PrayerTimes\PrayerTimes\obj\Debug\Common\StandardStyles.xaml
+C:\Users\Jérémie\Documents\Visual Studio 2012\Projects\PrayerTimes\PrayerTimes\obj\Debug\Controls\AppBar.xaml
+C:\Users\Jérémie\Documents\Visual Studio 2012\Projects\PrayerTimes\PrayerTimes\obj\Debug\Controls\PageBackground.xaml
+C:\Users\Jérémie\Documents\Visual Studio 2012\Projects\PrayerTimes\PrayerTimes\obj\Debug\View\CalendarPage.xaml
+C:\Users\Jérémie\Documents\Visual Studio 2012\Projects\PrayerTimes\PrayerTimes\obj\Debug\View\ExtendedSplashScreen.xaml
+C:\Users\Jérémie\Documents\Visual Studio 2012\Projects\PrayerTimes\PrayerTimes\obj\Debug\View\FavoritesPage.xaml
+C:\Users\Jérémie\Documents\Visual Studio 2012\Projects\PrayerTimes\PrayerTimes\obj\Debug\View\PreferencesSettings.xaml
+C:\Users\Jérémie\Documents\Visual Studio 2012\Projects\PrayerTimes\PrayerTimes\obj\Debug\View\SearchResultsPage.xaml
+C:\Users\Jérémie\Documents\Visual Studio 2012\Projects\PrayerTimes\PrayerTimes\obj\Debug\PrayerTimes.exe
+C:\Users\Jérémie\Documents\Visual Studio 2012\Projects\PrayerTimes\PrayerTimes\obj\Debug\PrayerTimes.pdb
+C:\Users\Jérémie\Documents\Visual Studio 2012\Projects\PrayerTimes\PrayerTimes\obj\Debug\PrayerTimes.csproj.GenerateResource.Cache
+C:\Users\Jérémie\Documents\Visual Studio 2012\Projects\PrayerTimes\PrayerTimes\obj\Debug\priconfig.xml
+C:\Users\Jérémie\Documents\Visual Studio 2012\Projects\PrayerTimes\PrayerTimes\obj\Debug\layout.resfiles
+C:\Users\Jérémie\Documents\Visual Studio 2012\Projects\PrayerTimes\PrayerTimes\obj\Debug\resources.resfiles
+C:\Users\Jérémie\Documents\Visual Studio 2012\Projects\PrayerTimes\PrayerTimes\obj\Debug\pri.resfiles
+C:\Users\Jérémie\Documents\Visual Studio 2012\Projects\PrayerTimes\PrayerTimes\obj\Debug\LanguageQualifiers.txt
+C:\Users\Jérémie\Documents\Visual Studio 2012\Projects\PrayerTimes\PrayerTimes\obj\Debug\ProjectArchitectures.txt
+C:\Users\Jérémie\Documents\Visual Studio 2012\Projects\PrayerTimes\PrayerTimes\obj\Debug\priconfig.xml.intermediate
+C:\Users\Jérémie\Documents\Visual Studio 2012\Projects\PrayerTimes\PrayerTimes\obj\Debug\layout.resfiles.intermediate
+C:\Users\Jérémie\Documents\Visual Studio 2012\Projects\PrayerTimes\PrayerTimes\obj\Debug\resources.resfiles.intermediate
+C:\Users\Jérémie\Documents\Visual Studio 2012\Projects\PrayerTimes\PrayerTimes\obj\Debug\pri.resfiles.intermediate
+S:\Dev\Windows 8\PrayerTimes\PrayerTimes\bin\Debug\PrayerTimes.exe
+S:\Dev\Windows 8\PrayerTimes\PrayerTimes\bin\Debug\PrayerTimes.pdb
+S:\Dev\Windows 8\PrayerTimes\PrayerTimes\bin\Debug\resources.pri
+S:\Dev\Windows 8\PrayerTimes\PrayerTimes\bin\Debug\AppxManifest.xml
+S:\Dev\Windows 8\PrayerTimes\PrayerTimes\bin\Debug\PrayerTimes.build.appxrecipe
+S:\Dev\Windows 8\PrayerTimes\PrayerTimes\bin\Debug\PrayerCalculation.dll
+S:\Dev\Windows 8\PrayerTimes\PrayerTimes\bin\Debug\PrayerTimes.Models.dll
+S:\Dev\Windows 8\PrayerTimes\PrayerTimes\bin\Debug\PrayerCalculation.pdb
+S:\Dev\Windows 8\PrayerTimes\PrayerTimes\bin\Debug\PrayerCalculation.pri
+S:\Dev\Windows 8\PrayerTimes\PrayerTimes\bin\Debug\PrayerTimes.Models.pdb
+S:\Dev\Windows 8\PrayerTimes\PrayerTimes\bin\Debug\PrayerTimes.Models.pri
+S:\Dev\Windows 8\PrayerTimes\PrayerTimes\obj\Debug\PrayerTimes.csprojResolveAssemblyReference.cache
+S:\Dev\Windows 8\PrayerTimes\PrayerTimes\obj\Debug\App.g.i.cs
+S:\Dev\Windows 8\PrayerTimes\PrayerTimes\obj\Debug\App.g.cs
+S:\Dev\Windows 8\PrayerTimes\PrayerTimes\obj\Debug\Common\StandardStyles.g.i.cs
+S:\Dev\Windows 8\PrayerTimes\PrayerTimes\obj\Debug\Common\StandardStyles.g.cs
+S:\Dev\Windows 8\PrayerTimes\PrayerTimes\obj\Debug\Controls\AppBar.g.i.cs
+S:\Dev\Windows 8\PrayerTimes\PrayerTimes\obj\Debug\Controls\AppBar.g.cs
+S:\Dev\Windows 8\PrayerTimes\PrayerTimes\obj\Debug\Controls\PageBackground.g.i.cs
+S:\Dev\Windows 8\PrayerTimes\PrayerTimes\obj\Debug\Controls\PageBackground.g.cs
+S:\Dev\Windows 8\PrayerTimes\PrayerTimes\obj\Debug\Controls\PrivacyPolicy.g.i.cs
+S:\Dev\Windows 8\PrayerTimes\PrayerTimes\obj\Debug\Controls\PrivacyPolicy.g.cs
+S:\Dev\Windows 8\PrayerTimes\PrayerTimes\obj\Debug\Controls\SettingsNarrow.g.i.cs
+S:\Dev\Windows 8\PrayerTimes\PrayerTimes\obj\Debug\Controls\SettingsNarrow.g.cs
+S:\Dev\Windows 8\PrayerTimes\PrayerTimes\obj\Debug\View\CalendarPage.g.i.cs
+S:\Dev\Windows 8\PrayerTimes\PrayerTimes\obj\Debug\View\CalendarPage.g.cs
+S:\Dev\Windows 8\PrayerTimes\PrayerTimes\obj\Debug\View\ExtendedSplashScreen.g.i.cs
+S:\Dev\Windows 8\PrayerTimes\PrayerTimes\obj\Debug\View\ExtendedSplashScreen.g.cs
+S:\Dev\Windows 8\PrayerTimes\PrayerTimes\obj\Debug\View\FavoritesPage.g.i.cs
+S:\Dev\Windows 8\PrayerTimes\PrayerTimes\obj\Debug\View\FavoritesPage.g.cs
+S:\Dev\Windows 8\PrayerTimes\PrayerTimes\obj\Debug\View\PreferencesSettings.g.i.cs
+S:\Dev\Windows 8\PrayerTimes\PrayerTimes\obj\Debug\View\PreferencesSettings.g.cs
+S:\Dev\Windows 8\PrayerTimes\PrayerTimes\obj\Debug\View\SearchResultsPage.g.i.cs
+S:\Dev\Windows 8\PrayerTimes\PrayerTimes\obj\Debug\View\SearchResultsPage.g.cs
+S:\Dev\Windows 8\PrayerTimes\PrayerTimes\obj\Debug\XamlTypeInfo.g.cs
+S:\Dev\Windows 8\PrayerTimes\PrayerTimes\obj\Debug\App.xaml
+S:\Dev\Windows 8\PrayerTimes\PrayerTimes\obj\Debug\Common\StandardStyles.xaml
+S:\Dev\Windows 8\PrayerTimes\PrayerTimes\obj\Debug\Controls\AppBar.xaml
+S:\Dev\Windows 8\PrayerTimes\PrayerTimes\obj\Debug\Controls\PageBackground.xaml
+S:\Dev\Windows 8\PrayerTimes\PrayerTimes\obj\Debug\Controls\PrivacyPolicy.xaml
+S:\Dev\Windows 8\PrayerTimes\PrayerTimes\obj\Debug\Controls\SettingsNarrow.xaml
+S:\Dev\Windows 8\PrayerTimes\PrayerTimes\obj\Debug\View\CalendarPage.xaml
+S:\Dev\Windows 8\PrayerTimes\PrayerTimes\obj\Debug\View\ExtendedSplashScreen.xaml
+S:\Dev\Windows 8\PrayerTimes\PrayerTimes\obj\Debug\View\FavoritesPage.xaml
+S:\Dev\Windows 8\PrayerTimes\PrayerTimes\obj\Debug\View\PreferencesSettings.xaml
+S:\Dev\Windows 8\PrayerTimes\PrayerTimes\obj\Debug\View\SearchResultsPage.xaml
+S:\Dev\Windows 8\PrayerTimes\PrayerTimes\obj\Debug\PrayerTimes.exe
+S:\Dev\Windows 8\PrayerTimes\PrayerTimes\obj\Debug\PrayerTimes.pdb
+S:\Dev\Windows 8\PrayerTimes\PrayerTimes\obj\Debug\PrayerTimes.csproj.GenerateResource.Cache
+S:\Dev\Windows 8\PrayerTimes\PrayerTimes\obj\Debug\priconfig.xml.intermediate
+S:\Dev\Windows 8\PrayerTimes\PrayerTimes\obj\Debug\layout.resfiles.intermediate
+S:\Dev\Windows 8\PrayerTimes\PrayerTimes\obj\Debug\resources.resfiles.intermediate
+S:\Dev\Windows 8\PrayerTimes\PrayerTimes\obj\Debug\pri.resfiles.intermediate
+S:\Dev\Windows 8\PrayerTimes\PrayerTimes\obj\Debug\priconfig.xml
+S:\Dev\Windows 8\PrayerTimes\PrayerTimes\obj\Debug\layout.resfiles
+S:\Dev\Windows 8\PrayerTimes\PrayerTimes\obj\Debug\resources.resfiles
+S:\Dev\Windows 8\PrayerTimes\PrayerTimes\obj\Debug\pri.resfiles
+S:\Dev\Windows 8\PrayerTimes\PrayerTimes\obj\Debug\LanguageQualifiers.txt
+S:\Dev\Windows 8\PrayerTimes\PrayerTimes\obj\Debug\ProjectArchitectures.txt

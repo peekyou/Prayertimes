@@ -1,0 +1,24 @@
+C:\Users\Jérémie\Documents\Visual Studio 2012\Projects\PrayerTimes\PrayerCalculation\bin\Debug\PrayerCalculation.dll
+C:\Users\Jérémie\Documents\Visual Studio 2012\Projects\PrayerTimes\PrayerCalculation\bin\Debug\PrayerCalculation.pdb
+C:\Users\Jérémie\Documents\Visual Studio 2012\Projects\PrayerTimes\PrayerCalculation\bin\Debug\PrayerCalculation.pri
+C:\Users\Jérémie\Documents\Visual Studio 2012\Projects\PrayerTimes\PrayerCalculation\obj\Debug\PrayerCalculation.dll
+C:\Users\Jérémie\Documents\Visual Studio 2012\Projects\PrayerTimes\PrayerCalculation\obj\Debug\PrayerCalculation.pdb
+C:\Users\Jérémie\Documents\Visual Studio 2012\Projects\PrayerTimes\PrayerCalculation\obj\Debug\priconfig.xml
+C:\Users\Jérémie\Documents\Visual Studio 2012\Projects\PrayerTimes\PrayerCalculation\obj\Debug\layout.resfiles
+C:\Users\Jérémie\Documents\Visual Studio 2012\Projects\PrayerTimes\PrayerCalculation\obj\Debug\resources.resfiles
+C:\Users\Jérémie\Documents\Visual Studio 2012\Projects\PrayerTimes\PrayerCalculation\obj\Debug\pri.resfiles
+C:\Users\Jérémie\Documents\Visual Studio 2012\Projects\PrayerTimes\PrayerCalculation\obj\Debug\LanguageQualifiers.txt
+S:\Dev\Windows 8\PrayerTimes\PrayerCalculation\bin\Debug\PrayerCalculation.dll
+S:\Dev\Windows 8\PrayerTimes\PrayerCalculation\bin\Debug\PrayerCalculation.pdb
+S:\Dev\Windows 8\PrayerTimes\PrayerCalculation\bin\Debug\PrayerCalculation.pri
+S:\Dev\Windows 8\PrayerTimes\PrayerCalculation\obj\Debug\PrayerCalculation.dll
+S:\Dev\Windows 8\PrayerTimes\PrayerCalculation\obj\Debug\PrayerCalculation.pdb
+S:\Dev\Windows 8\PrayerTimes\PrayerCalculation\obj\Debug\priconfig.xml
+S:\Dev\Windows 8\PrayerTimes\PrayerCalculation\obj\Debug\layout.resfiles
+S:\Dev\Windows 8\PrayerTimes\PrayerCalculation\obj\Debug\resources.resfiles
+S:\Dev\Windows 8\PrayerTimes\PrayerCalculation\obj\Debug\pri.resfiles
+S:\Dev\Windows 8\PrayerTimes\PrayerCalculation\obj\Debug\LanguageQualifiers.txt
+S:\Dev\Windows 8\PrayerTimes\PrayerCalculation\obj\Debug\priconfig.xml.intermediate
+S:\Dev\Windows 8\PrayerTimes\PrayerCalculation\obj\Debug\layout.resfiles.intermediate
+S:\Dev\Windows 8\PrayerTimes\PrayerCalculation\obj\Debug\resources.resfiles.intermediate
+S:\Dev\Windows 8\PrayerTimes\PrayerCalculation\obj\Debug\pri.resfiles.intermediate
