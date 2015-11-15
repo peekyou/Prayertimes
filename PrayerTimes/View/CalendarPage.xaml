@@ -120,7 +120,7 @@
             <TextBlock Style="{StaticResource PageTitleTextStyle}" x:Name="pageTitle"
                         Text="{Binding Path=Location.City}" Foreground="Black"/>
             <Button Grid.Column="1" Grid.Row="1" Style="{StaticResource AppBarButtonStyle}" Content="&#xE11A;" Margin="0,0,30,0"
-                        Command="{Binding SearchCommand}" VerticalAlignment="Bottom" x:Name="searchButton"/>
+                        Command="{Binding SearchCommand}" VerticalAlignment="Bottom" x:Name="searchButton" Visibility="{Binding IsSearchEnabled, Converter={StaticResource BooleanToVisibilityConverter}}"/>
 
             <TextBlock Style="{StaticResource PageSubTitleTextStyle}" x:Name="pageTitle2" Grid.Row="1"
                         Text="{Binding Path=Location.CountryAndState}" Foreground="Black"/>

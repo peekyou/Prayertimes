@@ -1,10 +1,6 @@
 ﻿using System;
-using System.Collections.Generic;
 using System.Globalization;
-using System.Linq;
-using System.Text;
-using System.Threading.Tasks;
-using Windows.UI.Xaml.Controls;
+using Windows.UI.Xaml;
 using Windows.UI.Xaml.Data;
 
 namespace PrayerTimes.Converter
@@ -16,7 +12,7 @@ namespace PrayerTimes.Converter
             string formatString = parameter as string;
             if (!string.IsNullOrEmpty(formatString))
             {
-                if(!string.IsNullOrEmpty(language))
+                if (!string.IsNullOrEmpty(language))
                     return string.Format(new CultureInfo(language), formatString, value);
                 else
                     return string.Format(formatString, value);
@@ -26,7 +22,7 @@ namespace PrayerTimes.Converter
 
         public object ConvertBack(object value, Type targetType, object parameter, string language)
         {
-            return null;
+            return DependencyProperty.UnsetValue;
         }
     }
 }

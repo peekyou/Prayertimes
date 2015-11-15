@@ -8,7 +8,6 @@ using System.Net;
 using System.Threading.Tasks;
 using System.Xml;
 using Windows.Storage;
-using Windows.UI.Notifications;
 
 namespace PrayerTimes.Utils
 {
@@ -1752,36 +1751,6 @@ namespace PrayerTimes.Utils
             {
             }
             return locations;
-        }
-
-        public async static void UpdateTile(Location location, string method, string asrMethod, string midnightMethod)
-        {
-            string lang = "en";
-            CultureInfo currentCulture = CultureInfo.CurrentCulture;
-            if (currentCulture.Name == "fr-FR")
-                lang = "fr";
-
-            DateTime date = DateTime.Now;
-            int dst = LocationService.GetDSTByRegion(location.Country, location.State, location.City, location.TimeZone, date);
-            CultureInfo culture = new CultureInfo("en-US");
-            DateTime expires = new DateTime(DateTime.Now.Year, DateTime.Now.Month, DateTime.Now.Day, 23, 59, 59).ToUniversalTime();
-            string urlString = string.Format("http://islamine.com/services/prayertimes?date={0}&latitude={1}&longitude={2}&timezone={3}&dst={4}&method={5}&city={6}&timezonename={7}&lang={8}&asr={9}&midnight={10}",
-                date.ToString("yyyy-MM-dd HH:mm:ss"),
-                location.Latitude.ToString("0.#####", culture),
-                location.Longitude.ToString("0.#####", culture),
-                location.TimeZone.ToString("0.#", culture),
-                dst,
-                method,
-                location.City,
-                location.TimezoneName.Replace('/', '-'),
-                lang,
-                asrMethod,
-                midnightMethod);
-
-            PeriodicUpdateRecurrence recurrence = PeriodicUpdateRecurrence.Hour;
-            DateTime tomorrow = new DateTime(DateTime.Now.Year, DateTime.Now.Month, DateTime.Now.Day, 0, 0, 1).AddDays(1);
-            DateTimeOffset startTime = new DateTimeOffset(tomorrow);
-            TileUpdateManager.CreateTileUpdaterForApplication().StartPeriodicUpdate(new Uri(urlString), recurrence);
         }
     }
 }

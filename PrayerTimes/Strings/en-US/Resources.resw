@@ -219,4 +219,10 @@ If you decide to give your consent, your data may be used for purposes of promot
   <data name="StartGeolocationAppBarButtonStyle.Value" xml:space="preserve">
     <value>Start Geolocation</value>
   </data>
+  <data name="ToastNotificationShuruqText" xml:space="preserve">
+    <value>Sunrise:</value>
+  </data>
+  <data name="ToastNotificationText" xml:space="preserve">
+    <value>Praying time:</value>
+  </data>
 </root>

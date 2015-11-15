@@ -1,24 +1,12 @@
-﻿using System;
-using System.Collections.Generic;
-using System.IO;
-using System.Linq;
-using PrayerTimes.View;
+﻿using PrayerTimes.View;
 using PrayerTimes.ViewModel;
+using System;
 using Windows.ApplicationModel;
 using Windows.ApplicationModel.Activation;
 using Windows.Foundation;
-using Windows.Foundation.Collections;
 using Windows.Storage;
-using Windows.UI.ApplicationSettings;
-using Windows.UI.Notifications;
-using Windows.UI.Popups;
 using Windows.UI.Xaml;
 using Windows.UI.Xaml.Controls;
-using Windows.UI.Xaml.Controls.Primitives;
-using Windows.UI.Xaml.Data;
-using Windows.UI.Xaml.Input;
-using Windows.UI.Xaml.Media;
-using Windows.UI.Xaml.Navigation;
 
 // The Blank Application template is documented at http://go.microsoft.com/fwlink/?LinkId=234227
 
@@ -80,7 +68,7 @@ namespace PrayerTimes
         {
             prayerViewModel = new PrayerViewModel();
             await prayerViewModel.LoadPrayers();
-            
+
             // Tear down the extended splash screen after all operations are complete.
             RemoveExtendedSplash();
         }
@@ -113,6 +101,7 @@ namespace PrayerTimes
         {
             var deferral = e.SuspendingOperation.GetDeferral();
             //TODO: Save application state and stop any background activity
+            this.prayerViewModel.WaitForTask();
             deferral.Complete();
         }
 

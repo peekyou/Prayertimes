@@ -143,6 +143,7 @@
     <Compile Include="Properties\AssemblyInfo.cs" />
     <Compile Include="Utils\LocationService.cs" />
     <Compile Include="Utils\Network.cs" />
+    <Compile Include="Utils\Notification.cs" />
     <Compile Include="Utils\Strings.cs" />
     <Compile Include="ViewModel\FavoritesViewModel.cs" />
     <Compile Include="ViewModel\DelegateCommand.cs" />

@@ -11,6 +11,7 @@ using System.Collections.ObjectModel;
 using System.IO;
 using System.Linq;
 using System.Net;
+using System.Threading;
 using System.Threading.Tasks;
 using System.Windows.Input;
 using Windows.ApplicationModel.Search;
@@ -33,6 +34,14 @@ namespace PrayerTimes.ViewModel
         private PrayerTimeCalculation prayerCalculation;
         Windows.Storage.ApplicationDataContainer localSettings = Windows.Storage.ApplicationData.Current.LocalSettings;
         private DispatcherTimer timer = new DispatcherTimer();
+
+        private bool isSearchEnabled;
+        public bool IsSearchEnabled
+        {
+            get { return isSearchEnabled; }
+            set { isSearchEnabled = value; OnPropertyChanged("IsSearchEnabled"); }
+        }
+
 
         private bool isCoordsComplete;
         public bool IsCoordsComplete
@@ -217,8 +226,11 @@ namespace PrayerTimes.ViewModel
 
         private void Search(object obj)
         {
-            SearchPane.PlaceholderText = loader.GetString("SearchPanePlaceholderText");
-            SearchPane.Show();
+            if (SearchPane != null)
+            {
+                SearchPane.PlaceholderText = loader.GetString("SearchPanePlaceholderText");
+                SearchPane.Show();
+            }
         }
         #endregion
 
@@ -233,7 +245,6 @@ namespace PrayerTimes.ViewModel
             MethodUsedString = loader.GetString("CurrentMethod");
 
             DisplayMode = DisplayModes.NextSevenDays;
-            SearchPane = SearchPane.GetForCurrentView();
             MethodName = (string)localSettings.Values["method"];
             if (string.IsNullOrWhiteSpace(MethodName))
                 MethodName = MethodsList[0];
@@ -253,6 +264,16 @@ namespace PrayerTimes.ViewModel
                 MaghribAdjustement = DefaultValues.MaghribAdjustment;
 
             Location = new Location();
+
+            try
+            {
+                SearchPane = SearchPane.GetForCurrentView();
+                if (SearchPane != null)
+                {
+                    this.IsSearchEnabled = true;
+                }
+            }
+            catch { }
         }
 
         private void TimerTick(object sender, object e)
@@ -316,7 +337,7 @@ namespace PrayerTimes.ViewModel
             {
                 SaveHomeSettings();
                 ComputePrayers(TimeZoneInfo.Local);
-                UpdateTile();
+                UpdateNotifications();
             }
             else
             {
@@ -634,7 +655,7 @@ namespace PrayerTimes.ViewModel
                 if (string.IsNullOrEmpty((string)localSettings.Values["city"]))
                 {
                     SaveHomeSettings();
-                    UpdateTile();
+                    UpdateNotifications();
                 }
             }
             catch (FileNotFoundException)
@@ -655,8 +676,11 @@ namespace PrayerTimes.ViewModel
             }
         }
 
-        public void UpdateTile()
+        public void UpdateNotifications()
         {
+            // Cancel previous toast notification planning
+            this.CancelPlanningToastNotifications();
+
             Location homeLocation = new Location();
             homeLocation.Latitude = Convert.ToDouble(localSettings.Values["latitude"]);
             homeLocation.Longitude = Convert.ToDouble(localSettings.Values["longitude"]);
@@ -665,14 +689,53 @@ namespace PrayerTimes.ViewModel
             homeLocation.Country = (string)localSettings.Values["country"];
             homeLocation.TimeZone = Convert.ToDouble(localSettings.Values["timezone"]);
             homeLocation.TimezoneName = (string)localSettings.Values["timezoneName"];
+
             MethodBase homeMethod = null;
             if (MethodName == "Auto")
-                homeMethod = GetMethodByCountry(homeLocation.Country, homeLocation.City);
+                homeMethod = GetMethodByCountry(location.Country, location.City);
             else
                 homeMethod = Method;
 
-            if (!string.IsNullOrEmpty(homeLocation.City) && homeMethod != null)
-                LocationService.UpdateTile(homeLocation, homeMethod.ToString(), AsrMethod, MidnightMethod);
+            this.UpdateTile(homeLocation, homeMethod, AsrMethod, MidnightMethod);
+            toastNotificationsTask = this.UpdateToastNotifications(homeLocation, homeMethod, AsrMethod, MidnightMethod);
+        }
+
+        private CancellationTokenSource source;
+        private Task toastNotificationsTask;
+        private async Task UpdateToastNotifications(Location location, MethodBase method, string asrMethod, string midnightMethod)
+        {
+
+            this.source = new CancellationTokenSource();
+            PrayerTimeCalculation prayerCalculation = new PrayerTimeCalculation(
+                method,
+                ConvertStringToAsrMethod(asrMethod),
+                ConvertStringToMidnightMethod(midnightMethod),
+                this.MaghribAdjustement);
+
+            await Notification.PlanToastNotifications(source.Token, prayerCalculation, location);
+        }
+
+        private void UpdateTile(Location location, MethodBase method, string asrMethod, string midnightMethod)
+        {
+            if (!string.IsNullOrEmpty(location.City) && method != null)
+                Notification.UpdateTile(location, method.ToString(), asrMethod, midnightMethod);
+        }
+
+        public void WaitForTask()
+        {
+            if (this.toastNotificationsTask != null && !this.toastNotificationsTask.IsCanceled
+                && !this.toastNotificationsTask.IsCompleted && !this.toastNotificationsTask.IsFaulted)
+            {
+                Task.WaitAll(this.toastNotificationsTask);
+            }
+        }
+
+        public void CancelPlanningToastNotifications()
+        {
+            if (this.source != null)
+            {
+                this.source.Cancel();
+            }
         }
     }
 }

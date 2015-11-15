@@ -26,3 +26,17 @@ S:\Dev\Windows 8\PrayerTimes\PrayerCalculation\obj\Release\priconfig.xml.interme
 S:\Dev\Windows 8\PrayerTimes\PrayerCalculation\obj\Release\layout.resfiles.intermediate
 S:\Dev\Windows 8\PrayerTimes\PrayerCalculation\obj\Release\resources.resfiles.intermediate
 S:\Dev\Windows 8\PrayerTimes\PrayerCalculation\obj\Release\pri.resfiles.intermediate
+S:\Dev\Applications\Windows 8\PrayerTimes\PrayerCalculation\bin\Release\PrayerCalculation.dll
+S:\Dev\Applications\Windows 8\PrayerTimes\PrayerCalculation\bin\Release\PrayerCalculation.pdb
+S:\Dev\Applications\Windows 8\PrayerTimes\PrayerCalculation\bin\Release\PrayerCalculation.pri
+S:\Dev\Applications\Windows 8\PrayerTimes\PrayerCalculation\obj\Release\PrayerCalculation.dll
+S:\Dev\Applications\Windows 8\PrayerTimes\PrayerCalculation\obj\Release\PrayerCalculation.pdb
+S:\Dev\Applications\Windows 8\PrayerTimes\PrayerCalculation\obj\Release\priconfig.xml.intermediate
+S:\Dev\Applications\Windows 8\PrayerTimes\PrayerCalculation\obj\Release\layout.resfiles.intermediate
+S:\Dev\Applications\Windows 8\PrayerTimes\PrayerCalculation\obj\Release\resources.resfiles.intermediate
+S:\Dev\Applications\Windows 8\PrayerTimes\PrayerCalculation\obj\Release\pri.resfiles.intermediate
+S:\Dev\Applications\Windows 8\PrayerTimes\PrayerCalculation\obj\Release\priconfig.xml
+S:\Dev\Applications\Windows 8\PrayerTimes\PrayerCalculation\obj\Release\layout.resfiles
+S:\Dev\Applications\Windows 8\PrayerTimes\PrayerCalculation\obj\Release\resources.resfiles
+S:\Dev\Applications\Windows 8\PrayerTimes\PrayerCalculation\obj\Release\pri.resfiles
+S:\Dev\Applications\Windows 8\PrayerTimes\PrayerCalculation\obj\Release\LanguageQualifiers.txt

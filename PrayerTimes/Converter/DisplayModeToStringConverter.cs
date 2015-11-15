@@ -1,12 +1,6 @@
-﻿using System;
-using System.Collections.Generic;
-using System.Globalization;
-using System.Linq;
-using System.Text;
-using System.Threading.Tasks;
-using PrayerTimes.Common;
+﻿using PrayerTimes.Common;
+using System;
 using Windows.UI.Xaml;
-using Windows.UI.Xaml.Controls;
 using Windows.UI.Xaml.Data;
 
 namespace PrayerTimes.Converter
@@ -26,12 +20,12 @@ namespace PrayerTimes.Converter
                 case DisplayModes.CurrentMonth:
                     return loader.GetString("DisplayModesCurrentMonth");
             }
-            return "";
+            return string.Empty;
         }
 
         public object ConvertBack(object value, Type targetType, object parameter, string language)
         {
-            return null;
+            return DependencyProperty.UnsetValue;
         }
     }
 }

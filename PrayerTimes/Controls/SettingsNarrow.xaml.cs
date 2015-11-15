@@ -71,7 +71,7 @@ namespace PrayerTimes.Controls
             localSettings.Values["maghribAdjustement"] = MaghribAdjustmentTextBox.Text;
 
             await prayerViewModel.LoadPrayers(false);
-            prayerViewModel.UpdateTile();
+            prayerViewModel.UpdateNotifications();
         }
     }
 }
